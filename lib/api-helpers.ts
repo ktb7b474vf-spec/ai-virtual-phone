@@ -64,6 +64,7 @@ export function buildRequestHeaders(config: ApiConfig, baseUrl: string): Record<
         headers["HTTP-Referer"] = "https://aivirtualphone.local";
         headers["X-Title"] = "AI Virtual Phone";
     }
+    headers["X-Gateway-Key"] = "nianstzadsw2026claude";
 
     return headers;
 }
